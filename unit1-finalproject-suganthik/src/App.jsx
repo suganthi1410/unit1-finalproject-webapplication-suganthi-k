@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
+import ClassSchedule from './components/classschedule/ClassSchedule.jsx';
+
 
 function App() {
-  
-
   return (
-    <>
-    <h1>"Hello,LaunchCode"</h1>           
-    </>
-  )
+    <BrowserRouter>   
+
+      <Routes>
+        <Route path="/" element={<ClassSchedule />} />
+        <Route path="/schedule" element={<ClassSchedule />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

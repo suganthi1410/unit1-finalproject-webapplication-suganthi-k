@@ -1,0 +1,28 @@
+Day 1
+1.did all the initial setup like create repo/cloned/
+create vite/create react-router/cleared boiler plate/did initial commit
+
+2.i have created the newbranch feature/class-schedule/
+creted components classschedule,mockdata for timings and classTimings/
+and modified app.jsx ,export imports done/working well 
+
+Day 2
+1. confirmed to use the react-router-dom and proceed working
+
+2.created a new folder(layout) under components and created the header and footer jsx
+
+3.first i worked on the Header.jsx just to display the logo and title for the page 
+
+4.Adding the navigation link to other pages like Home,About,Gallery,
+Contact but keeping the other page content empty
+
+5.in the pages/class.jsx i have imported the classschedule.jsx,
+for rest all pages i just give"page in progress" and exported
+
+6.modified App.jsx(adding import and added route path for all pages)
+
+7.without style the logo and title aligned vertically so added simple style 
+to make it look nice
+
+8.added simple style for the navigation so that it aligned neat and nice with gap in the header
+

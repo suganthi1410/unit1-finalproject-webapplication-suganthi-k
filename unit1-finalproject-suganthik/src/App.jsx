@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 import ClassSchedule from './components/classschedule/ClassSchedule.jsx';
+import ClassTimings from "./components/classschedule/ClassTimings";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ClassSchedule />} />
         <Route path="/schedule" element={<ClassSchedule />} />
+        <Route path="/schedule/timings" element={<ClassTimings />} />
       </Routes>
     </BrowserRouter>
   );

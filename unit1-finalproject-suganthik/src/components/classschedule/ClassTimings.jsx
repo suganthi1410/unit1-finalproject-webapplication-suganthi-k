@@ -1,4 +1,4 @@
-import timings from './mockdata/MockData.jsx';
+import timings from './mockdata/TimeData.js';
 
 function ClassTimings() {
   const kids = timings.filter(item => item.group.startsWith("Kids"));

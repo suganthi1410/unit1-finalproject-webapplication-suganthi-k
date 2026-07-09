@@ -7,7 +7,7 @@ creted components classschedule,mockdata for timings and classTimings/
 and modified app.jsx ,export imports done/working well 
 
 Day 2
-1. confirmed to use the react-router-dom and proceed working
+1.confirmed to use the react-router-dom and proceed working
 
 2.created a new folder(layout) under components and created the header and footer jsx
 
@@ -26,3 +26,13 @@ to make it look nice
 
 8.added simple style for the navigation so that it aligned neat and nice with gap in the header
 
+9.Function created for footer,export and import done on App.jsx
+
+10.modified the file name MockData.jsx to MockData.jsx
+
+Day-3
+
+1.for clarity changing the name of MockData.js to TimeData.js and also  checnging that in 
+ClassTimings.jsx beacuse it is imported here
+2.creating a mock data for the levels LevelData.jsx 
+3.created the minor components in classschedule folder KidsLevel.jsx and AdultLevel.jsx import and export done.

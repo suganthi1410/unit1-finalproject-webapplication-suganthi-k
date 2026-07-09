@@ -1,0 +1,66 @@
+Day 1
+1.did all the initial setup like create repo/cloned/
+create vite/create react-router/cleared boiler plate/did initial commit
+
+2.i have created the newbranch feature/class-schedule/
+creted components classschedule,mockdata for timings and classTimings/
+and modified app.jsx ,export imports done/working well 
+
+Day 2
+1.confirmed to use the react-router-dom and proceed working
+
+2.created a new folder(layout) under components and created the header and footer jsx
+
+3.first i worked on the Header.jsx just to display the logo and title for the page 
+
+4.Adding the navigation link to other pages like Home,About,Gallery,
+Contact but keeping the other page content empty
+
+5.in the pages/class.jsx i have imported the classschedule.jsx,
+for rest all pages i just give"page in progress" and exported
+
+6.modified App.jsx(adding import and added route path for all pages)
+
+7.without style the logo and title aligned vertically so added simple style 
+to make it look nice
+
+8.added simple style for the navigation so that it aligned neat and nice
+ with gap in the header
+
+9.Function created for footer,export and import done on App.jsx
+
+10.modified the file name MockData.jsx to MockData.jsx
+
+Day-3
+
+1.for clarity changing the name of MockData.js to TimeData.js and also  checnging that in 
+ClassTimings.jsx beacuse it is imported here
+
+2.creating a mock data for the levels LevelData.jsx 
+
+3.created the minor components in classschedule folder KidsLevel.jsx and
+ AdultLevel.jsx import and export done.
+
+4.modifiying main component ClassSchedule.jsx so that we can swtich between
+ which studenttype(kid or adult) and it will shows the details of levels for each type
+
+5.eventhandler used in ClassSchedule by click on buttons user can see the details
+ about the levels (for kids and adults)
+
+6.Now i am creating the ClassTimingsData(holds information like type of
+ students,levels,day,time and fees) 
+
+
+day-4
+
+1.i am creating a child component that receives the filtered timing from the parent and
+ should display only the day,timing and the fees.
+
+ 2.now i am modifying the major component ClassTimings(here it is the parent component)it
+  stores the selected type and level that filter the timings and pass the data to the child component
+
+3.class page working well after creating mock data,child component and modified
+ the parent component using props.the page displays the corresponding class timins and fees when i select the type of
+ student and the level i want to see.
+ 
+ 4.adding a button that takes back to the class page when it is clicked 

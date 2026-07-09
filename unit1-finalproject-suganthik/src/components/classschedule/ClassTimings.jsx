@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import timings from './mockdata/ClassTimingsData.js';
 import TimingsDisplay from './TimingsDisplay.jsx';
 
@@ -40,6 +41,12 @@ function ClassTimings() {
 
       </select>
       <TimingsDisplay items={filteredTimings} />
+
+      <Link to= "/class">
+      <button >
+        Back to Class page
+      </button>
+      </Link>
     
     </div>
   );

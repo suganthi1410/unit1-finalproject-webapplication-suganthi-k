@@ -59,5 +59,8 @@ day-4
  2.now i am modifying the major component ClassTimings(here it is the parent component)it
   stores the selected type and level that filter the timings and pass the data to the child component
 
-3.class page working well after creating mock data,child component and modified the parent component using props.
-the page displays the corresponding class timins and fees when i select the type of student and the level i want to see.
+3.class page working well after creating mock data,child component and modified
+ the parent component using props.the page displays the corresponding class timins and fees when i select the type of
+ student and the level i want to see.
+ 
+ 4.adding a button that takes back to the class page when it is clicked 

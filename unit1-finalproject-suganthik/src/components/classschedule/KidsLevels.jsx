@@ -2,12 +2,12 @@ import { kidsLevels } from './mockdata/LevelData';
 
 function KidsLevels() {
     return(
-        <div>
-            <h3>Kids Levels</h3>
+        <div className= "level-card">
+            <h3 className="kid-level-title">Kids Levels</h3>
             {kidsLevels.map((item, index) =>(
-                <section key={index}>
-                    <h4>{item.level}</h4>
-                    <p>{item.description}</p>
+                <section key={index} className="kid-card">
+                    <h4 className="level-title">{item.level}</h4>
+                    <p className="level-description">{item.description}</p>
                 </section>
             )
         )}

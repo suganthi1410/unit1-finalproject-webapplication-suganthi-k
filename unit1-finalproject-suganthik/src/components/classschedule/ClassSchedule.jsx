@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import KidsLevels from '../classschedule/KidsLevels'
-import AdultsLevels from '../classschedule/AdultLevels'
-import '../classschedule/classpagecss/ClassLevel.css';
+import KidsLevels from '../classschedule/KidsLevels';
+import AdultsLevels from '../classschedule/AdultLevels';
+import  '../classschedule/classpagecss/ClassLevel.css';
+import mudraright from '../../assets/images/mudraright.jpeg';
+import mudraleft from "../../assets/images/mudraleft.jpeg";
+
+
 
 
 
@@ -14,14 +18,16 @@ function ClassSchedule(){
 
       <h2 className="page-title">CLASS LEVELS AND TIMINGS</h2>
       <h3 className="level-title">Levels</h3>
+
       <div className ="button-type-toggle">
         <button 
-        onClick={() => setStudentType("Kids")} >
-          Kids
+        onClick={() => setStudentType("Kids")} >Kids
+          <img src={mudraleft} alt="mudrascoochi" className="toggle-icon-kid" />
                   </button>
                   <button
                     onClick={() => setStudentType("Adults")} >
                       Adults
+                      <img src={mudraleft} alt="mudrascoochi" className="toggle-icon-adult" />
                   </button>                
                  
       </div>
@@ -29,11 +35,13 @@ function ClassSchedule(){
                     {StudentType === "Kids" && <KidsLevels /> }
                     {StudentType === "Adults" && <AdultsLevels />}
                   </div>     
+                  {StudentType &&(
       <div className= "link-to-timing">
       <h3>
         <Link to="/schedule/timings">View Class Timings</Link>
       </h3>
     </div>
+                  )}
     </div>
   );
 }

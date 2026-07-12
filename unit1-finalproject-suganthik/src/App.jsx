@@ -12,6 +12,7 @@ import Contact from './components/pages/Contact.jsx';
 
 import ClassSchedule from './components/classschedule/ClassSchedule.jsx';
 import ClassTimings from "./components/classschedule/ClassTimings";
+import './App.css';
 
 
 function App() {

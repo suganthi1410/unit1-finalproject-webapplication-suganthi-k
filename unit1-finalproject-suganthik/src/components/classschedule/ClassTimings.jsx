@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import timings from './mockdata/ClassTimingsData.js';
 import TimingsDisplay from './TimingsDisplay.jsx';
+import '../classschedule/classpagecss/ClassTimings.css';
+import mudraright from "../../assets/images/mudraright.jpeg";
+
 
 function ClassTimings() {
 
@@ -16,22 +19,21 @@ function ClassTimings() {
       timingInfo.level === selectedLevel
     );
   });
-    console.log("selectedType:",selectedType );
-    console.log("selectedLevel:",selectedLevel);
-    console.log("Filtered:", filteredTimings);
-
     
   return (
-    <div>
+    <div className="timings-page" >
       <h3>ClassTimings for Selected Level </h3>
-
-      <select value={selectedType} onChange= {(e) =>
+      <p>Please select the type of student and level</p>
+<div className="timings-page-container" >
+      <div className="select-type-level">
+          <select value={selectedType} onChange= {(e) =>
       setSelectedType(e.target.value)} >
         <option value="">Select Type </option>
         <option value="Kids">Kids </option>
         <option value="Adults">Adults</option>        
       </select>
-
+</div>
+<div className="select-type-level">
       <select value = {selectedLevel} onChange={(e) =>
       setSelectedLevel(e.target.value)} >
         <option value="">Select Level </option>
@@ -40,10 +42,14 @@ function ClassTimings() {
         <option value="Advanced">Advanced</option>
 
       </select>
+      </div>
+
+    </div>
       <TimingsDisplay items={filteredTimings} />
 
       <Link to= "/class">
-      <button >
+      <button className="back-button" >
+        <img src={mudraright} alt="mudra" className="back-button-icon" />
         Back to Class page
       </button>
       </Link>

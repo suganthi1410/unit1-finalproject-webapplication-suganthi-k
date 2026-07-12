@@ -64,3 +64,28 @@ day-4
  student and the level i want to see.
  
  4.adding a button that takes back to the class page when it is clicked 
+ 
+5.did git push origin -u feature/class-schedule
+      created pull request,merge done, git pull (vs code main)
+      checked all files merged to main, then deleted the branch from github.
+6.creating New branch for core feature css
+
+weekend work
+1.creating a css file in the components/classschedule/ClassLevel.css
+2.In the ClassSchedule.jsx page i have given className so that i can use it for the css
+3.Also giving the class names in AdultsLevels.jsx and KidsLevel.jsx
+4.after giving the class names now css have been created
+classLevel.css
+1.class-level-page
+2.page-title
+3.level-title
+4.added images to assets/images(soochi mudra to create icon for buttons kids,adults)
+5.in ClassSchedule.jsx added the img source and the class name as toggle.icon
+working on the css 
+6.button-type-toggle,button and icon added to the button 
+7.css for the level-card,level-title,level display
+8.level display title underlining(Beginner,intermediate,advanced) using span
+9.after seeing the levels for each student type it will show the link for seeing timings 
+
+
+

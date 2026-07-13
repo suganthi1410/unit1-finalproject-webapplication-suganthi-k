@@ -1,16 +1,18 @@
 import { kidsLevels } from './mockdata/LevelData';
 
 function KidsLevels() {
-    return(
-        <div>
-            <h3>Kids Levels</h3>
-            {kidsLevels.map((item, index) =>(
-                <section key={index}>
-                    <h4>{item.level}</h4>
-                    <p>{item.description}</p>
-                </section>
-            )
-        )}
+    return (
+        <div className="level-card">
+            <h3 className="level-title">Kids Levels</h3>
+            <div className="level-container" >
+                {kidsLevels.map((item, index) => (
+                    <section key={index} className="level-display" >
+                        <h4 className="eachlevel-title">{item.level}</h4>
+                        <p className="level-description">{item.description}</p>
+                    </section>
+                )
+                )}
+            </div>
         </div>
     );
 }

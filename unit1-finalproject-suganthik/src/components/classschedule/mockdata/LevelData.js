@@ -1,11 +1,11 @@
 const kidsLevels = [
     {
         level: "Beginner",
-        description: "Students are introduced to foundational posture,basic Adavus and hand gestures.The focus is on building coordination, balance and confidence"
+        description: "Students are introduced to foundational posture,basic Adavus and hand gestures.The focus is on building coordination, balance and confidence."
      },
      {
         level: "Intermediate",
-        description: "Learners progress to more complex adavus,simple jatis,introductory expressions and their first dance items such as Alarippu.Emphasis is placed on stamina,timing and accuracy"
+        description: "Learners progress to more complex adavus,simple jatis,introductory expressions and their first dance items such as Alarippu.Emphasis is placed on stamina,timing and accuracy."
      },
      {
         level: "Advanced",

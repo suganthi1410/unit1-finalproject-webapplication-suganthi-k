@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(0, 0, 0, 0.918);
+    color:white;
+}
+a:link{
+    color:white;
+    font-size: medium;
+}
+a:visited {
+  color:white;
+ }

@@ -92,5 +92,15 @@ classTimings.css
 2.classTimings.css were creadted and css have been added for the timings page 
 3.import done and the page working well
 
+day- july 13th
+1.added class name for the button in ClassSchedule.jsx("button-style")
+2.added hover effect for the button(button-style) ClassLevel.css
+3.in ClassTiming.css chenged the hover effect(back to classpage)background to black just 
+to mathch all the hover effect all pages should be same.
+4.refactoring css using grid ,clamping used to scale the text size in different screens
+5.renaming the class name(toggle-icon-kid and toggle-icon-adult) beacuse the two toggle button 
+using the same css (so not repeating the code)
+6.adding media queries for levels page and timing page
+
 
 

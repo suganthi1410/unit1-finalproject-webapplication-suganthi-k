@@ -22,8 +22,8 @@ function ClassTimings() {
     
   return (
     <div className="timings-page" >
-      <h3>ClassTimings for Selected Level </h3>
-      <p>Please select the type of student and level</p>
+      <h3>CLASS TIMINGS </h3>
+      <p>Please select the Student Type and Level</p>
 <div className="timings-page-container" >
       <div className="select-type-level">
           <select value={selectedType} onChange= {(e) =>

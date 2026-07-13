@@ -20,14 +20,14 @@ function ClassSchedule(){
       <h3 className="level-title">Levels</h3>
 
       <div className ="button-type-toggle">
-        <button 
+        <button className="button-style" 
         onClick={() => setStudentType("Kids")} >Kids
-          <img src={mudraleft} alt="mudrascoochi" className="toggle-icon-kid" />
+          <img src={mudraleft} alt="mudrascoochi" className="toggle-icon" />
                   </button>
-                  <button
+                  <button className="button-style"
                     onClick={() => setStudentType("Adults")} >
                       Adults
-                      <img src={mudraleft} alt="mudrascoochi" className="toggle-icon-adult" />
+                      <img src={mudraleft} alt="mudrascoochi" className="toggle-icon" />
                   </button>                
                  
       </div>

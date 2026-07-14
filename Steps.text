@@ -111,6 +111,13 @@ using the same css (so not repeating the code)
  Homepage.jsx 
  6.refactored the Homepage.jsx and css have been added
  7.buttons to class and contact page added
-
+ 
+ day-july 14
+ 1.after completing the homepage pr,merge and git pull have been done
+ 2.created a new branch for my contact page feature/contact-page
+ 3.created a new component (contactpage) and created files jsx and css
+ 4.major component : ContactPage.jsx,Minor component : ContactForm.jsx 
+ 5.function have been written,export import done , pages -Contact.jsx(imported ContactPage.jsx)
+ 6.css have been added to the contact page and contact form,media quries for two size 900px and 600px created
 
 

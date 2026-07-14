@@ -102,5 +102,13 @@ to mathch all the hover effect all pages should be same.
 using the same css (so not repeating the code)
 6.adding media queries for levels page and timing page
 
+ home page:
+ 1.after pr,merging and git pull,created a new branch to work on the home page
+ 2.created a folder inisde component homepage
+ 3.created to files HomePage.jsx and HomePage.css
+ 4.writing function inside the jsx file imported link,banner image 
+ 5.after writing the function export done and in the pages folder=>Home.jsx imported the 
+ Homepage.jsx 
+
 
 

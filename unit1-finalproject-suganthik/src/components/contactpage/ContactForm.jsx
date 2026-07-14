@@ -28,6 +28,10 @@ function ContactForm(){
 
     setSuccess("Message sent successfully!");
     setFormData({ firstName: "", lastName: "", email: "", message: "" });
+
+      setTimeout(() => {
+    setSuccess("");
+  }, 5000);
   }
 
   return (

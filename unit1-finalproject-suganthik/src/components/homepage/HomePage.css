@@ -64,4 +64,34 @@ display:flexbox;
     background-color:rgba(255, 255, 255, 0.114) ; 
     border-radius: 6px;
 }
+.buttons-class-contact{
+   display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 20px;
+}
 
+.link-button{
+    display:flex;
+    align-items:center; 
+    width:auto;
+    height:40px;
+    gap:10px;
+    margin-top:15px;
+    background-color:rgba(0, 0, 0, 0.543);
+    color:rgb(255, 255, 255);
+    border:2px solid coral;    
+    font-size:15px;
+    padding:2px 10px 2px 10px;    
+    border-radius:8px;
+    cursor:pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+
+}
+.link-button:hover{
+   background-color:rgb(0, 0, 0);
+    border:2px solid gold;
+    border-radius:15px ;
+    color:rgb(22, 232, 67);
+}

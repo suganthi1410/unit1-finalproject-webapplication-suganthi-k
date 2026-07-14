@@ -25,7 +25,17 @@ function HomePage() {
                     </p>
                     <p className="quote">Your age doesn't define your path — your passion does.
                 </p>
+                <div className="buttons-class-contact">
+                <Link to = "/class" >
+                <button className="link-button">View Class details </button>
+                </Link>
+                <Link to = "/contact">
+                <button className="link-button">Contact us </button>
+
+                </Link>
+            </div>
             </section>
+            
 
         </div>
     );

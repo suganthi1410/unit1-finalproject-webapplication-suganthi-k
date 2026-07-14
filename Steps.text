@@ -110,6 +110,7 @@ using the same css (so not repeating the code)
  5.after writing the function export done and in the pages folder=>Home.jsx imported the 
  Homepage.jsx 
  6.refactored the Homepage.jsx and css have been added
+ 7.buttons to class and contact page added
 
 
 

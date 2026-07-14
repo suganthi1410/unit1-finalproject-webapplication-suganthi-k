@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
+import HomePage from '../homepage/HomePage.jsx';
 function Home(){
     return(
         <div>
-            <h1>Home page in progress</h1>
+            <HomePage />
         </div>
     );
 

@@ -1,0 +1,40 @@
+import { Link } from 'react-router-dom';
+import galleryData from './galleryData.js';
+import './GalleryPage.css';
+
+function GalleryPage(){
+    return(
+        <main className="gallery-main">
+
+            <h2 className="gallery-title">Gallery</h2>
+
+            <p className="gallery-subtext">
+                A glimpse into our past performances and special moments.
+            </p>
+        <div className="gallery-grid">
+                {galleryData.map(item => (
+                    <div key={item.id} className="gallery-item">
+                        <img 
+                            src={item.image} 
+                            alt="Gallery" 
+                            className="gallery-image" 
+                        />
+                    </div>
+                ))}
+            </div>
+
+            <div className="gallery-buttons">
+                <Link to="/class">
+                    <button className="gallery-link-button">View Class Details</button>
+                </Link>
+
+                <Link to="/contact">
+                    <button className="gallery-link-button">Contact Us</button>
+                </Link>
+
+
+        </div>
+        </main>
+    );
+}
+export default GalleryPage;

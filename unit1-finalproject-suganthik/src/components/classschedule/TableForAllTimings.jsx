@@ -1,11 +1,12 @@
 import timings from './mockdata/ClassTimingsData.js';
+import '../classschedule/classpagecss/Table.css';
 
 function TableForAllTimings(){
     return(
-        <div>
+        <div className="table-container">
             <h3>Class Timings for Kids and Adults</h3>
-            <table>
-                <thead>
+            <table className="table">
+                <thead className="table-head">
                     <tr> 
                         <th>Type</th>
                         <th>Level</th>
@@ -15,7 +16,7 @@ function TableForAllTimings(){
                     </tr>
                 </thead>
 
-                <tbody>
+                <tbody className="table-body">
 {timings.map((item, index) =>(
    <tr key={index}>
     <td>{item.type}</td>

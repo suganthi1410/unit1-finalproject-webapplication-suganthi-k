@@ -48,11 +48,12 @@ function ClassTimings() {
 
     </div>
       <TimingsDisplay items={filteredTimings} />
-
+<div className="show-alltimings-button">
+       <p>Please click on the button below for All Timings</p> 
       <button onClick={() => setShowAll(!showAll)}>Show All class Timings
       </button>
       {showAll && <TableforAllTimings/> }
-
+</div>
       <Link to= "/class">
       <button className="back-button" >
         <img src={mudraright} alt="mudra" className="back-button-icon" />

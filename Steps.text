@@ -136,5 +136,7 @@ july 15
 2.created new jsx file for writing function for converting mock data to table,export done
 3.imported the file inside the major component ClassTimings and added the button 
 for showing all timings
+4.page works and need to add css 
+5.css added,refinment needed
 
 

@@ -69,6 +69,28 @@
     line-height:1.6;
 }
 
+.toggle-button {
+  background-color: #ffcc00;
+  color: #000;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-button:hover {
+  background-color: #ffb700;
+  transform: translateY(-2px);
+}
+
+.toggle-button:active {
+  transform: scale(0.97);
+}
+
 .back-button{
     display:flex;
     align-items: center;

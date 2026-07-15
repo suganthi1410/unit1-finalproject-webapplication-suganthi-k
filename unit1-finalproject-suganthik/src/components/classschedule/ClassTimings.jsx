@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import timings from './mockdata/ClassTimingsData.js';
 import TimingsDisplay from './TimingsDisplay.jsx';
+import TableforAllTimings from './TableForAllTimings.jsx';
 import '../classschedule/classpagecss/ClassTimings.css';
 import mudraright from "../../assets/images/mudraright.jpeg";
 
@@ -10,6 +11,7 @@ function ClassTimings() {
 
   const [selectedType, setSelectedType] = useState("");
     const [selectedLevel, setSelectedLevel ] = useState("");
+    const [showAll, setShowAll]= useState(false);
 
     const filteredTimings = timings.filter((timingInfo) =>{
       if(!selectedType || !selectedLevel) return false;
@@ -47,6 +49,15 @@ function ClassTimings() {
     </div>
       <TimingsDisplay items={filteredTimings} />
 
+<div className="show-all-timings">
+       <p>Please click on the button below for All Timings</p> 
+       
+      <button className="toggle-button" onClick={() => setShowAll(!showAll)}>
+        {showAll ? "Hide Timings" : "Show All Timings"}
+      </button>
+      
+      {showAll && <TableforAllTimings/> }
+</div>
       <Link to= "/class">
       <button className="back-button" >
         <img src={mudraright} alt="mudra" className="back-button-icon" />

@@ -2,10 +2,50 @@ body{
     background-color: rgba(0, 0, 0, 0.918);
     color:white;
 }
-a:link{
-    color:white;
-    font-size: medium;
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  padding-bottom:2px;
+  padding-left: 10px;
+  border-bottom: 6px solid #d22828;
 }
-a:visited {
-  color:white;
- }
+
+.logo-title {
+  display: flex; 
+  align-items: center;  
+  gap: 15px; 
+  
+}
+
+.logo{
+  border-radius: 5px;
+
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 2px;
+  margin: 0;
+  
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;  
+  gap: 40px;
+  margin-top: 10px;
+  margin-right:25px;
+
+}
+.header-nav a{
+    color:white;
+    text-decoration:none;
+    font-size: 18px;
+}
+.header-nav a:hover{
+    color:gold;
+}
+

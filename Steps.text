@@ -120,4 +120,9 @@ using the same css (so not repeating the code)
  5.function have been written,export import done , pages -Contact.jsx(imported ContactPage.jsx)
  6.css have been added to the contact page and contact form,media quries for two size 900px and 600px created
 
-
+7.after completing the contact page,pr,merge and git pull have done
+8.created a new branch for about page,and there created a new component folder,
+9.created jsx and css file in that folder
+10.function have been added to the jsx file and it is exported
+11.the AboutPage.jsx have been imported to the About.jsx in the page folder
+12.css have added to the about page 

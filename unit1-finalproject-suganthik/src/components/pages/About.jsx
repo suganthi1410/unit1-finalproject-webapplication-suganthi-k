@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
+import AboutPage from '../aboutpage/AboutPage.jsx'
 function About(){
     return(
         <div>
-            <h1>About page in progress</h1>
+            <AboutPage />
         </div>
     );
 

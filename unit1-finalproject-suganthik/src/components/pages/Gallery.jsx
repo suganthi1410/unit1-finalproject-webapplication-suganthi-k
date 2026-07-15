@@ -1,7 +1,8 @@
+import GalleryPage from '../gallerypage/GalleryPage.jsx'
 function Gallery(){
     return(
         <div>
-            <h1>Gallery page in progress</h1>
+           <GalleryPage />
         </div>
     );
 

@@ -125,3 +125,4 @@ using the same css (so not repeating the code)
 9.created jsx and css file in that folder
 10.function have been added to the jsx file and it is exported
 11.the AboutPage.jsx have been imported to the About.jsx in the page folder
+12.css have added to the about page 

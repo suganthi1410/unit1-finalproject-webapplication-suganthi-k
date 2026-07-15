@@ -8,10 +8,10 @@ function TableForAllTimings(){
                 <thead>
                     <tr> 
                         <th>Type</th>
-                        <th> Level</th>
-                        <th> Day</th>
+                        <th>Level</th>
+                        <th>Day</th>
                         <th>Time</th>
-                        <th>fee</th>
+                        <th>Fee</th>
                     </tr>
                 </thead>
 
@@ -20,7 +20,7 @@ function TableForAllTimings(){
    <tr key={index}>
     <td>{item.type}</td>
     <td>{item.level}</td>
-    <td>{item.Day}</td>
+    <td>{item.day}</td>
     <td>{item.time}</td>
     <td>{item.fee}</td>
     </tr>

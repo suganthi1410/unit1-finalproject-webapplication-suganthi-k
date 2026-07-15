@@ -11,6 +11,7 @@ function ClassTimings() {
 
   const [selectedType, setSelectedType] = useState("");
     const [selectedLevel, setSelectedLevel ] = useState("");
+    const [showAll, setShowAll]= useState(false);
 
     const filteredTimings = timings.filter((timingInfo) =>{
       if(!selectedType || !selectedLevel) return false;
@@ -50,7 +51,7 @@ function ClassTimings() {
 
       <button onClick={() => setShowAll(!showAll)}>Show All class Timings
       </button>
-      {showAll && <ClassTimingsTable /> }
+      {showAll && <TableforAllTimings/> }
 
       <Link to= "/class">
       <button className="back-button" >

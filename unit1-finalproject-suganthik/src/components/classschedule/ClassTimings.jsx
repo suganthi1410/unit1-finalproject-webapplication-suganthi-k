@@ -48,10 +48,14 @@ function ClassTimings() {
 
     </div>
       <TimingsDisplay items={filteredTimings} />
-<div className="show-alltimings-button">
+
+<div className="show-all-timings">
        <p>Please click on the button below for All Timings</p> 
-      <button onClick={() => setShowAll(!showAll)}>Show All class Timings
+       
+      <button className="toggle-button" onClick={() => setShowAll(!showAll)}>
+        {showAll ? "Hide Timings" : "Show All Timings"}
       </button>
+      
       {showAll && <TableforAllTimings/> }
 </div>
       <Link to= "/class">

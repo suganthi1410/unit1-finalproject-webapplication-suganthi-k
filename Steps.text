@@ -139,6 +139,15 @@ for showing all timings
 4.page works and need to add css 
 5.css added,refinment needed
 6.changing the button for show all class timings and hide all timinge(like toggle button)
-changing the class name to toggle-button
+changing the class name to toggle-button,pushed the updates,pr and merged done,
+
+7.updating header and footer
+after the git pull, removing the inline css from the header and creating it in 
+the global index.css
+8.changing the teachers name to Bhavithra Ganesh
+9.adding the class name 
+10.moving the logo to global public folder 
+
+
 
 

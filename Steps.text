@@ -125,4 +125,16 @@ using the same css (so not repeating the code)
 9.created jsx and css file in that folder
 10.function have been added to the jsx file and it is exported
 11.the AboutPage.jsx have been imported to the About.jsx in the page folder
-12.css have added to the about page 
+12.css have added to the about page
+
+8.after pr,merge and git pull,created new branch and worked on the gallery page,new component 
+folder created,images have been added to assets/gallery,mock data that is gallerData.js was created
+added the function to jsx and css applied,branch is pushed and merged
+
+july 15
+1.created new branch for updating the class papge feature/updating-classpage-addingtable
+2.created new jsx file for writing function for converting mock data to table,export done
+3.imported the file inside the major component ClassTimings and added the button 
+for showing all timings
+
+

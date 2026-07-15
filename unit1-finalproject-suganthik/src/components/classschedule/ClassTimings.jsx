@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import timings from './mockdata/ClassTimingsData.js';
 import TimingsDisplay from './TimingsDisplay.jsx';
+import TableforAllTimings from './TableForAllTimings.jsx';
 import '../classschedule/classpagecss/ClassTimings.css';
 import mudraright from "../../assets/images/mudraright.jpeg";
 
@@ -46,6 +47,10 @@ function ClassTimings() {
 
     </div>
       <TimingsDisplay items={filteredTimings} />
+
+      <button onClick={() => setShowAll(!showAll)}>Show All class Timings
+      </button>
+      {showAll && <ClassTimingsTable /> }
 
       <Link to= "/class">
       <button className="back-button" >

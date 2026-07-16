@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import banner from '../../assets/images/bannerbw1.jpeg'
+import ReusableButton from '../ReusableButton';
 import './HomePage.css';
 
 function HomePage() {
@@ -25,13 +26,12 @@ function HomePage() {
                     </p>
                     <p className="quote">Your age doesn't define your path — your passion does.
                 </p>
-                <div className="buttons-class-contact">
+                <div >
                 <Link to = "/class" >
-                <button className="link-button">View Class details </button>
+                <ReusableButton label="View Class Details" />
                 </Link>
                 <Link to = "/contact">
-                <button className="link-button">Contact us </button>
-
+                <ReusableButton label="View contact page" />
                 </Link>
             </div>
             </section>

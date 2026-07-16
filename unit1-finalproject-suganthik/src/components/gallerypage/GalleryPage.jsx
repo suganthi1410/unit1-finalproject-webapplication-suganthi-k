@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import galleryData from './galleryData.js';
+import ReusableButton from '../ReusableButton.jsx';
 import './GalleryPage.css';
 
 function GalleryPage(){
@@ -23,13 +24,13 @@ function GalleryPage(){
                 ))}
             </div>
 
-            <div className="gallery-buttons">
+            <div >
                 <Link to="/class">
-                    <button className="gallery-link-button">View Class Details</button>
+                    <ReusableButton label="View Class Details" />
                 </Link>
 
                 <Link to="/contact">
-                    <button className="gallery-link-button">Contact Us</button>
+                    <ReusableButton label="View contact page" />
                 </Link>
 
 

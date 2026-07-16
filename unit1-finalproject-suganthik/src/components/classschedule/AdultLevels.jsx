@@ -1,5 +1,7 @@
 import { adultsLevels } from "./mockdata/LevelData";
 
+//Displays all Adults class levels with their descriptions.
+
 function AdultsLevels() {
   return (
     <div className="level-card">

@@ -1,6 +1,8 @@
 import timings from "./mockdata/ClassTimingsData.js";
 import "./classpagecss/Table.css";
 
+// Displays a full table of all class timings for Kids and Adults
+
 function TableForAllTimings() {
   return (
     <div className="table-container">

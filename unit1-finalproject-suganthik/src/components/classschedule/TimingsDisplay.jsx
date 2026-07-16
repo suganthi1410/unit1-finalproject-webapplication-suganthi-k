@@ -1,3 +1,5 @@
+//Displays day, time, and fee details for selected class timings.
+
 function TimingsDisplay({ items }) {
   return (
     <div className="time-container">

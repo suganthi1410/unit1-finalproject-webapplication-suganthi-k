@@ -4,6 +4,7 @@ import ReusableButton from "../ReusableButton.jsx";
 import Reviews from "./Reviews.jsx";
 import "./GalleryPage.css";
 
+//Displays the gallery page with images, navigation buttons, and the Reviews section.
 function GalleryPage() {
   return (
     <main className="gallery-main">

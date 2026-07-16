@@ -4,6 +4,9 @@ import dancer1 from "../../assets/images/dancer1.jpeg";
 import ReusableButton from "../ReusableButton";
 import "./AboutPage.css";
 
+//Displays About page with about the school,about teacher
+//and shows the buttons to class and contact 
+
 function AboutPage() {
   return (
     <main>

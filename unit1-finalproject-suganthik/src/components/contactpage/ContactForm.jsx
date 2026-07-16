@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+//Handles contact form input, validation, and success or error message displays.
+
 function ContactForm() {
   const [formData, setFormData] = useState({
     firstName: "",

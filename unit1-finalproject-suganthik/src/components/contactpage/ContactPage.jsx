@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import ContactForm from "./ContactForm.jsx";
 import "./ContactPage.css";
 
+//Displays the Contact page with teacher details, location map, and the contact form.
+
 function ContactPage() {
   return (
     <main className="contact-page">

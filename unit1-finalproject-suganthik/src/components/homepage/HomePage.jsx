@@ -3,6 +3,7 @@ import banner from "../../assets/images/bannerbw1.jpeg";
 import ReusableButton from "../ReusableButton";
 import "./HomePage.css";
 
+//Displays Home page with banner, Bharatanatyam intro, quote, and navigation buttons.
 function HomePage() {
   return (
     <div className="home-page">

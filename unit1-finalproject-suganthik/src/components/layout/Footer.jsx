@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import footerimage from "../../../public/footer.jpeg";
 
-/* function created for footer that displays the link to other pages,
-added youtube link,quotes and image */
+//function created for footer that displays the link to other pages,
+//added youtube link,quotes and image
 
 function Footer() {
   const year = new Date().getFullYear();

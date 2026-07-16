@@ -1,5 +1,6 @@
 import { kidsLevels } from "./mockdata/LevelData";
 
+//Displays all Kids class levels with their descriptions.
 function KidsLevels() {
   return (
     <div className="level-card">

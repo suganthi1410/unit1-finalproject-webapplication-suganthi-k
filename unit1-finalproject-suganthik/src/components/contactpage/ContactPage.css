@@ -1,5 +1,5 @@
 .contact-page {
-max-width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px;
   font-family: Georgia, serif;
@@ -13,8 +13,6 @@ max-width: 900px;
   color: rgb(241, 181, 30);
   margin: 0 auto 30px auto;
   font-size: 22px;
-  
-  
 }
 
 .contact-layout {
@@ -50,11 +48,10 @@ max-width: 900px;
 }
 
 .studio-location-box {
-  margin-top:-45px;
+  margin-top: -45px;
   padding: 10px;
-  color:salmon;
-  font-family:'Times New Roman', Times, serif
-  
+  color: salmon;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .studio-location-title {
@@ -154,8 +151,6 @@ max-width: 900px;
   margin-bottom: 10px;
   font-weight: 600;
 }
-
-
 
 @media (max-width: 900px) {
   .contact-layout {

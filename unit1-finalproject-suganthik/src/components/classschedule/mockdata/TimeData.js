@@ -13,7 +13,7 @@ const timings = [
   { group: "Adults Intermediate", time: "Tuesday — 7:00 PM to 8:00 PM" },
   { group: "Adults Intermediate", time: "Thursday — 7:00 PM to 8:00 PM" },
 
-  { group: "Adults Advanced", time: "Saturday — 8:00 AM to 10:00 AM" }
+  { group: "Adults Advanced", time: "Saturday — 8:00 AM to 10:00 AM" },
 ];
 
 export default timings;

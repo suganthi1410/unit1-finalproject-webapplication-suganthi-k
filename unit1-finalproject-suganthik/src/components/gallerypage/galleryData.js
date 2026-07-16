@@ -8,7 +8,7 @@ import image6 from '../../assets/gallery/image6.jpeg';
 import image7 from '../../assets/gallery/image7.jpeg';
 import image8 from '../../assets/gallery/image8.jpeg';
 
-const galleryData =  [
+ const galleryData =  [
   { id: 0, image: image0 },
   { id: 1, image: image1 },
   { id: 2, image: image2 },

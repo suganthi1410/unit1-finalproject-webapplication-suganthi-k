@@ -1,5 +1,5 @@
 import timings from './mockdata/ClassTimingsData.js';
-import '../classschedule/classpagecss/Table.css';
+import './classpagecss/Table.css';
 
 function TableForAllTimings(){
     return(

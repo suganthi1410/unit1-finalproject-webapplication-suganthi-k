@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import timings from './mockdata/ClassTimingsData.js';
 import TimingsDisplay from './TimingsDisplay.jsx';
 import TableforAllTimings from './TableForAllTimings.jsx';
-import '../classschedule/classpagecss/ClassTimings.css';
+import './classpagecss/ClassTimings.css';
 import mudraright from "../../assets/images/mudraright.jpeg";
 
 
@@ -50,8 +50,7 @@ function ClassTimings() {
       <TimingsDisplay items={filteredTimings} />
 
 <div className="show-all-timings">
-       <p>Please click on the button below for All Timings</p> 
-       
+       <p>Please click on the button below for All Timings</p>        
       <button className="toggle-button" onClick={() => setShowAll(!showAll)}>
         {showAll ? "Hide Timings" : "Show All Timings"}
       </button>

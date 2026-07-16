@@ -9,6 +9,10 @@ function Reviews() {
     if (!text.trim()) return;
     setReviews([...reviews, { id: Date.now(), text }]);
     setText("");
+  };
+
+  const deleteReview = (id) =>{
+    setReviews(reviews.filter((r) => r.id !== id));
   }
 
   return (
@@ -19,6 +23,14 @@ function Reviews() {
         placeholder="Write review here"
       />
       <button onClick={addReview}>Add Review</button>
+      <ul>
+        {reviews.map(({ id, text }) => (
+          <li key={id}>
+            {text}            
+            <button onClick={()=> deleteReview(id)} >Delete </button>
+            </li>
+        ))}
+      </ul>
     </div>
   );
 }

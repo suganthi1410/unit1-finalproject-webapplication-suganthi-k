@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import galleryData from './galleryData.js';
+import galleryData from './GalleryData.js';
 import ReusableButton from '../ReusableButton.jsx';
 import './GalleryPage.css';
 

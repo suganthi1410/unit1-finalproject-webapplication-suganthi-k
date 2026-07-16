@@ -19,15 +19,15 @@ function Reviews() {
 
   return (
     <div className="review-section">
-        <h3 className="review-heading"> Reviews </h3>
+      <h3 className="review-heading"> Reviews </h3>
 
-        <div className="review-input">
-      <input
-        value={text}
-        onChange={(e) => setText(e.target.value)}
-        placeholder="Write review here"
-      />
-      <button className="add-button" onClick={addReview}>
+      <div className="review-input">
+        <input
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          placeholder="Write review here"
+        />
+        <button className="add-button" onClick={addReview}>
           Add Review
         </button>
       </div>

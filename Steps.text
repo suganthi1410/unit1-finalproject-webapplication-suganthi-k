@@ -153,6 +153,7 @@ the global index.css
 2.imported the image in footer and added the link to other pags and youtube link to the footer.
 3.refactored the footer 
 4.added css for footer
-
+5.added quote between the quicklines and image as i felt it is blank and applied css for the quotes
+6.added inline comment to the header and footer jsx file 
 
 

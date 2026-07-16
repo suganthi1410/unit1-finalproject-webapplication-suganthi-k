@@ -102,7 +102,7 @@ body{
 .footer-nav {
     display:flex;
     justify-content: left;
-    gap:40px;
+    gap:35px;
     font-size:18px;
     margin-top:10px;
     
@@ -113,10 +113,19 @@ body{
 .footer-nav a:hover {
   color: gold
 }
-
+.footer-quote{
+display:block;
+text-align: center;
+width: 100%;
+margin-left: 2px;
+margin-top:60px;
+color: gold;
+font-style: italic;
+font-size: 25px;
+}
 
 .youtube-link {
-  margin-top: 20px;
+  margin-top: 0px;
   display: inline-block;
   background-color: #d22828;
   padding: 6px 14px;

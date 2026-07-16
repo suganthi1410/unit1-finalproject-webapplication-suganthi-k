@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom';
 import logo from '../../../public/logo.JPEG';
+
+/* function created for header that displays Logo,
+page title and links to other pages */
+
 function Header(){
     return(
         <header className="header">

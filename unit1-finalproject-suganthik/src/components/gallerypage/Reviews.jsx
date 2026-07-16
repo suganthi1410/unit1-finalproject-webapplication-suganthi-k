@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReusableButton from "../ReusableButton";
 
 function Reviews() {
   const [reviews, setReviews] = useState([]);
@@ -11,9 +12,9 @@ function Reviews() {
     setText("");
   };
 
-  const deleteReview = (id) =>{
+  const deleteReview = (id) => {
     setReviews(reviews.filter((r) => r.id !== id));
-  }
+  };
 
   return (
     <div>
@@ -22,13 +23,13 @@ function Reviews() {
         onChange={(e) => setText(e.target.value)}
         placeholder="Write review here"
       />
-      <button onClick={addReview}>Add Review</button>
+      <ReusableButton label="Add Review" />
       <ul>
         {reviews.map(({ id, text }) => (
           <li key={id}>
-            {text}            
-            <button onClick={()=> deleteReview(id)} >Delete </button>
-            </li>
+            {text}
+            <ReusableButton label="Delete" onClick={() => deleteReview(id)} />
+          </li>
         ))}
       </ul>
     </div>

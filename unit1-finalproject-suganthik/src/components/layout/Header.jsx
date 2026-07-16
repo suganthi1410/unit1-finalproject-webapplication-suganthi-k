@@ -1,31 +1,18 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.jpeg';
+import logo from '../../../public/logo.JPEG';
+
+/* function created for header that displays Logo,
+page title and links to other pages */
+
 function Header(){
     return(
-        <header
-         style={{
-        padding: "5px",
-        borderBottom: "6px solid #d22828"
-      }}
-         >
-            <div
-             style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "15px" }}
-            >
-<img src={logo} alt="Nirtya LOGO" width="100" />
-<h1 >Nirtya by Teacher's Name</h1>
+        <header className="header">
+            <div className="logo-title">
+<img src={logo} alt="Nirtya LOGO" width="100" className="logo" />
+<h1 className="title">Nirtya by Bhavithra Ganesh</h1>
+            </div>       
 
-            </div>        
-<nav
-style={{
-    display:"flex",
-    justifyContent:"flex-end",
-    alignItems:"center",
-    gap: "30px"
-}}
->
+<nav className="header-nav" >
 <Link to="/">Home</Link>
 <Link to="/about">About</Link>
 <Link to="/class">Class</Link>

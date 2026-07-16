@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import banner from '../../assets/images/salangai2.jpeg'
 import dancer1 from '../../assets/images/dancer1.jpeg'
+import ReusableButton from '../ReusableButton';
 import './AboutPage.css';
 
 function AboutPage() {
@@ -55,13 +56,13 @@ function AboutPage() {
                     </div>
                 </section>
 
-                <div className="about-buttons">
+                <div >
                     <Link to="/class">
-                        <button className="about-link-button">View Class Details</button>
+                        <ReusableButton label="View Class Details" />
                     </Link>
 
                     <Link to="/contact">
-                        <button className="about-link-button">Contact Us</button>
+                        <ReusableButton label="View contact page" />
                     </Link>
                 </div>
             </div>

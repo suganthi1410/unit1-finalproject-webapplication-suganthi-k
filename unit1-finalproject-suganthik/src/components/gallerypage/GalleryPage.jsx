@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import galleryData from './GalleryData.js';
 import ReusableButton from '../ReusableButton.jsx';
+import Reviews from './Reviews.jsx';
 import './GalleryPage.css';
 
 function GalleryPage(){
@@ -34,8 +35,9 @@ function GalleryPage(){
                 </Link>
 
 
-        </div>
-        </main>
+        </div>       
+            <Reviews />
+            </main>
     );
 }
 export default GalleryPage;

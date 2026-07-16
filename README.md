@@ -1,0 +1,1 @@
+This project is a React based website built to showcase a Bharatanatyam school, including class levels, timings, gallery, contact form, and teacher information. The site uses reusable components, React Router navigation, and dynamic state to display content based on user interaction. short

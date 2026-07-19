@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ReusableButton from "../ReusableButton";
 import "./Reviews.css";
 
 function Reviews() {

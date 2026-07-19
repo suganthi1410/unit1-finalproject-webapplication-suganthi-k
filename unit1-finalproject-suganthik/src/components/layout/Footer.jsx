@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import footerimage from "../../../public/footerimage2.jpeg";
+import footerimage from '../../assets/images/footerimage.jpeg';
 
 //function created for footer that displays the link to other pages,
 //added youtube link,quotes and image

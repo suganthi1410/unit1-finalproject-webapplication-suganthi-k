@@ -23,7 +23,7 @@ const timings = [
   {
     type: "Kids",
     level: "Intermediate",
-    day: "Thrusday",
+    day: "Thursday",
     time: "6.00 PM-7.00 PM",
     fee: "$75/month",
   },
@@ -58,7 +58,7 @@ const timings = [
   {
     type: "Adults",
     level: "Intermediate",
-    day: "Thrusday",
+    day: "Thursday",
     time: "7.00 PM-8.00 PM",
     fee: "$85/month",
   },

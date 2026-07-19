@@ -20,7 +20,7 @@ const adultsLevels = [
   {
     level: "Beginner",
     description:
-      "Adults learn foundational adavus,postures,rhythem and basic theory.Instruction is paced to support flexibility,alignment and understanding of classical technique.",
+      "Adults learn foundational adavus,postures,rhythm and basic theory.Instruction is paced to support flexibility,alignment and understanding of classical technique.",
   },
   {
     level: "Intermediate",
@@ -30,7 +30,7 @@ const adultsLevels = [
   {
     level: "Advanced",
     description:
-      "Learners refine complex choreography such as varnam,practice expressive pieces like padams and keerthanams and develope mastery in both nritta and abhinaya.",
+      "Learners refine complex choreography such as varnam,practice expressive pieces like padams and keerthanams and develop mastery in both nritta and abhinaya.",
   },
 ];
 export { kidsLevels, adultsLevels };

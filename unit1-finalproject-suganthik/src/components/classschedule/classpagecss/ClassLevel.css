@@ -124,6 +124,15 @@
     border-radius:3px;
 }
 
+.link-to-timing h3 a {
+  color: white;
+  text-decoration: underline red;
+}
+
+.link-to-timing h3 a:hover {
+  color: gold;
+}
+
 @media(max-width:900px){
     .button-type-toggle{
         display:flex;

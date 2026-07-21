@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import GalleryData from "./GalleryData.js";
+import galleryData from "./GalleryData.js";
 import ReusableButton from "../ReusableButton.jsx";
 import Reviews from "./Reviews.jsx";
 import "./GalleryPage.css";
@@ -14,7 +14,7 @@ function GalleryPage() {
         A glimpse into our past performances and special moments.
       </p>
       <div className="gallery-grid">
-        {GalleryData.map((item) => (
+        {galleryData.map((item) => (
           <div key={item.id} className="gallery-item">
             <img src={item.image} alt="Gallery" className="gallery-image" />
           </div>
